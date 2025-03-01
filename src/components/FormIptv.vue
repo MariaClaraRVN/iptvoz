@@ -14,7 +14,7 @@
           <li>Telefone: (11) 91827-6555</li>
         </ul>
         <h4 class="subtitulo">Suporte</h4>
-        <p class="horario">Segunda a Sabádo das 08h às 22h</p>
+        <p class="horario">Segunda à Sabádo das 08h às 22h</p>
         <p class="horario">Domingos das 10h às 18h</p>
       </div>
 
