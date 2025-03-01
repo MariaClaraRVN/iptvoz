@@ -11,20 +11,21 @@
 
             <!-- Links rápidos -->
             <div class="footer-links">
-                <h3>Quick Links</h3>
+                <h3>Links Rápidos</h3>
                 <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Plans</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#planos">Planos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#suporte">Suporte</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>
 
             <!-- Redes Sociais -->
             <div class="footer-social">
-                <h3>Follow Us</h3>
+                <h3>Nos siga nas redes</h3>
                 <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://wa.link/nqe2ja" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 </div>
@@ -36,7 +37,7 @@
 
         <!-- Direitos autorais -->
         <div class="footer-bottom">
-            <p>&copy; 2025 IPTVOz. All rights reserved.</p>
+            <p>&copy; 2025 IPTVOz. Todos os direitos reservados.</p>
         </div>
     </footer>
 </template>
@@ -48,7 +49,7 @@ export default {
 </script>
 
 <style scoped>
-/* Estilos gerais */
+
 .footer {
     background: #0b1622;
     color: #fff;
@@ -57,7 +58,6 @@ export default {
     font-family: Arial, sans-serif;
 }
 
-/* Container principal */
 .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -66,14 +66,14 @@ export default {
     max-width: 1000px;
     margin: 0 auto;
     text-align: left;
+    width: 100%;
 }
 
-/* Logo e descrição */
 .footer-logo {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-family: var(--fonte-titulo);
+    font-family: var(--fonte-h1);
     line-height: normal;
     max-width: 250px;
 }
@@ -89,7 +89,6 @@ export default {
     font-size: 20px;
 }
 
-/* Estilos das seções de links */
 .footer-links h3,
 .footer-social h3 {
     font-size: 16px;
@@ -116,7 +115,6 @@ export default {
     color: var(--cor-primaria);
 }
 
-/* Redes sociais */
 .footer-social {
     display: flex;
     flex-direction: column;
@@ -125,17 +123,22 @@ export default {
 
 .social-icons {
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .social-icons a {
+    width: 100%;
     color: #bbb;
-    font-size: 18px;
+    font-size: 1.5rem;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .social-icons a:hover {
     color: #28d07e;
+    transition: color 0.3s;
 }
 
 .footer-divider {
@@ -150,7 +153,6 @@ export default {
     color: #bbb;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;

@@ -1,50 +1,52 @@
 <template>
-    <section class="planos-iptv">
-      <div class="intro">
-        <h2>Título aqui</h2>
-        <p class="texto-intro">
-          Frase aqui Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
+  <section class="planos-iptv" id="planos">
+    <div class="intro">
+      <h2>Escolha o plano ideal para você!</h2>
+      <p class="texto-intro">
+        Aproveite o melhor do IPTV com pacotes flexíveis e conteúdos exclusivos. Assista quando e onde quiser, sem
+        limites!
+      </p>
+    </div>
+
+    <div class="plano-popular-badge">Popular</div>
+
+    <div class="planos-container">
+      <div class="plano plano-popular">
+        <h3 class="plano-titulo">Mensal</h3>
+        <p class="plano-preco">R$: 30,00</p>
+        <ul class="plano-beneficios">
+          <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Acesso a mais de 5.000 canais</li>
+          <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Qualidade HD e Full HD</li>
+          <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Suporte 12h</li>
+        </ul>
+        <BotaoIptv />
       </div>
 
-      <div class="plano-popular-badge">Popular</div>
-
-      <div class="planos-container">
-        <div class="plano">
-          <h3 class="plano-titulo">Mensal</h3>
-          <p class="plano-preco">R$: xx,xx</p>
-          <ul class="plano-beneficios">
-            <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Sla Sla Sla Sla Sla Sla Sla Sla Sla Sla SlaSla Sla Sla Sla Sla Sla Sla Sla Sla Sla Sla</li>
-            <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Sla</li>
-            <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Sla</li>
-          </ul>
-          <BotaoIptv />
-        </div>
-  
-        <div class="plano plano-popular">
-          <h3 class="plano-titulo">Anual</h3>
-          <p class="plano-preco">R$: xx,xx</p>
-          <ul class="plano-beneficios">
-            <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Sla</li>
-            <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Sla</li>
-            <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Sla</li>
-          </ul>
-          <BotaoIptv />
-        </div>
-  
-        <div class="plano">
-          <h3 class="plano-titulo">Semestral</h3>
-          <p class="plano-preco">R$: xx,xx</p>
-          <ul class="plano-beneficios">
-            <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Sla</li>
-            <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Sla</li>
-            <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Sla</li>
-          </ul>
-          <BotaoIptv />
-        </div>
+      <div class="plano ">
+        <h3 class="plano-titulo">Trimestral</h3>
+        <p class="plano-preco">R$: 80,00</p>
+        <ul class="plano-beneficios">
+          <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Acesso a mais de 5.000 canais</li>
+          <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Qualidade HD e Full HD</li>
+          <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Suporte 12h</li>
+        </ul>
+        <BotaoIptv />
       </div>
-    </section>
-  </template>
+
+      <div class="plano">
+        <h3 class="plano-titulo">Semestral</h3>
+        <p class="plano-preco">R$: 160,00</p>
+        <ul class="plano-beneficios">
+          <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Acesso a mais de 5.000 canais</li>
+          <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Qualidade HD e Full HD</li>
+          <li><i class="icon fa fa-check-circle" aria-hidden="true"></i>Suporte 12h</li>
+        </ul>
+        <BotaoIptv />
+      </div>
+
+    </div>
+  </section>
+</template>
 
 
 <script>
@@ -81,7 +83,7 @@ export default {
 }
 
 h2{
-    font-family: var(--fonte-titulo);
+    font-family: var(--fonte-h1);
     color: #fff;
     font-size: 2.3rem;
     margin-bottom: 1%;
@@ -155,7 +157,7 @@ h2{
   text-align: center;
   z-index: 100;
   margin-bottom: -15px;
-  margin-left: 45%;
+  margin-left: 19%;
   font-family: var(--fonte-h1);
 }
 

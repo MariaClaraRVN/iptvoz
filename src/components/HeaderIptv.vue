@@ -1,25 +1,25 @@
 <template>
-<header class="cabecalho">
-  <nav class="navegacao">
-    <div class="logo">
-      <i class="fa fa-television" aria-hidden="true"></i>
-      <a href="#">IPTVOz</a>
-    </div>
+  <header class="cabecalho">
+    <nav class="navegacao">
+      <div class="logo">
+        <i class="fa fa-television" aria-hidden="true"></i>
+        <a href="#">IPTVOz</a>
+      </div>
 
-    <div class="menu-toggle" @click="toggleMenu">
-      <i class="fa icone-menu" :class="menuOpen ? 'fa-times' : 'fa-bars'" aria-hidden="true"></i>
-    </div>
+      <div class="menu-toggle" @click="toggleMenu">
+        <i class="fa icone-menu" :class="menuOpen ? 'fa-times' : 'fa-bars'" aria-hidden="true"></i>
+      </div>
 
-    <ul class="menu" :class="{ 'menu-open': menuOpen }">
-      <li><a href="#">Início</a></li>
-      <li><a href="#">Planos</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Contato</a></li>
-      <li><a href="#">Suporte</a></li>
-    </ul>
-    <BotaoIptv v-if="!menuOpen" class="botao-teste"/>
-  </nav>
-</header>
+      <ul class="menu" :class="{ 'menu-open': menuOpen }">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#suporte">Suporte</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <BotaoIptv v-if="!menuOpen" class="botao-teste" />
+    </nav>
+  </header>
 </template>
 
 <script>

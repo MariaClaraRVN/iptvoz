@@ -1,31 +1,31 @@
 <template>
-  <section class="contato" id="contatos">
+  <section class="contato" id="contato">
     <h2 class="titulo">Contate <span>- Me</span></h2>
     <p class="descricao">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus unde harum.
+      Tem alguma dúvida ou quer saber mais? <br> Fale conosco e descubra como podemos transformar sua experiência com
+      IPTV!
     </p>
 
     <div class="conteudo-contato">
       <div class="informacoes-contato">
-        <h4 class="subtitulo">Título aqui</h4>
+        <h4 class="subtitulo">Contate - me</h4>
         <ul class="lista-contato">
-          <li>Email</li>
-          <li>Telefone</li>
-          <li>Endereço</li>
+          <li>Email: gustavokaph@gmail.com</li>
+          <li>Telefone: (11) 91827-6555</li>
         </ul>
         <h4 class="subtitulo">Suporte</h4>
-        <p class="horario">Segunda a Sexta das 08h às 21h</p>
-        <p class="horario">Sábados e domingos das 09h às 20h</p>
+        <p class="horario">Segunda a Sabádo das 08h às 22h</p>
+        <p class="horario">Domingos das 10h às 18h</p>
       </div>
 
       <div class="borda"></div>
 
       <div class="formulario">
-        <form action="https://formsubmit.co/mariaclararezendeviannaa@gmail.com" method="POST">
+        <form action="https://formsubmit.co/gustavokaph@gmail.com" method="POST">
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_subject" value="Novo contato para o IPTVOz!">
-          <input type="hidden" name="_next" value="https://github.com/MariaClaraRVN">
+          <input type="hidden" name="_next" value="https://iptvoz.vercel.app/">
 
           <div class="grupo-input">
             <div class="caixa-input">
@@ -81,7 +81,6 @@ export default {
   margin-bottom: 6%;
 }
 
-/* Layout do conteúdo */
 .conteudo-contato {
   display: flex;
   justify-content: space-between;
@@ -124,7 +123,7 @@ export default {
 .borda{
   border-right: 3px solid var(--cor-fundo-secundaria);
 }
-/* Estilização do formulário */
+
 .formulario {
   flex: 1;
   max-width: 500px;
@@ -139,7 +138,6 @@ form {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Agrupamento de inputs */
 .grupo-input, .grupo-input-mensagem {
   margin-bottom: 10px;
 }
@@ -149,9 +147,9 @@ form {
   gap: 10px;
   flex-direction: column;
   margin-bottom: 10px;
+  color: #fff;
 }
 
-/* Estilização dos inputs */
 input, textarea {
   background: var(--cor-fundo);
   width: 100%;
@@ -161,14 +159,15 @@ input, textarea {
   font-size: 1em;
   font-family: var(--fonte-texto);
   outline: none;
+  color: #fff;
 }
 
 textarea {
   resize: none;
   margin-bottom: 3%;
+  color: #fff;
 }
 
-/* Botão de envio */
 .botao {
   background-color: var(--cor-primaria);
   color: #000;
