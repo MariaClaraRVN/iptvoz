@@ -1,4 +1,4 @@
-# IPTVOz - [IPTVOz](https://iptvoz-57mw.vercel.app/) 📺
+# IPTVOz - [IPTVOz]([https://www.iptvoz.com.br/]) 📺
 
 ## 🔧 Sobre o Projeto
 
