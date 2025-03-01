@@ -1,20 +1,17 @@
-# IPTVOz - (https://iptvoz.vercel.app/)
+# IPTVOz - [IPTVOz](https://www.iptvoz.com.br/) 📺
 
 ## Sobre o Projeto
 
 IPTVOz é uma aplicação Vue.js que oferece uma plataforma de IPTV com diversos planos e suporte ao cliente. Este projeto foi desenvolvido com foco em responsividade e usabilidade, utilizando tecnologias modernas como Vue.js, Font Awesome e Google Fonts.
 
-## Funcionalidades
+## 🚀 Tecnologias Utilizadas
 
-- **Página Inicial**: Uma introdução ao serviço com um banner atraente.
-- **Escolha**: Seção destacando os benefícios do serviço.
-- **Planos**: Diferentes planos de assinatura com preços e benefícios.
-- **Missão**: Declaração de missão da empresa.
-- **Suporte**: Seção de FAQ com perguntas frequentes.
-- **Formulário de Contato**: Formulário para os usuários entrarem em contato.
-- **Rodapé**: Informações de contato e links rápidos.
+- **Vue.js**: Framework JavaScript progressivo.
+- **Font Awesome**: Ícones vetoriais e logotipos sociais.
+- **Google Fonts**: Fontes personalizadas para uma melhor tipografia.
+- **CSS3**: Estilização responsiva e moderna.
 
-## Tecnologias Utilizadas
+## 🔧 Tecnologias Utilizadas
 
 - **Vue.js**: Framework JavaScript progressivo.
 - **Font Awesome**: Ícones vetoriais e logotipos sociais.
@@ -55,9 +52,7 @@ Para verificar e corrigir problemas de lint, execute:
 npm run lint
 ```
 
-## Estrutura do Projeto
-
-```plaintext
+## 📁 Estrutura do Projeto
 iptvoz/
 ├── public/
 │   ├── index.html
@@ -81,20 +76,12 @@ iptvoz/
 ├── package.json
 ├── README.md
 ├── vue.config.js
-```
 
-## Personalização
-
-Para personalizar a configuração, consulte a [Documentação do Vue CLI](https://cli.vuejs.org/config/).
-
-## Contribuição
-
+## 🤝 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
+## 📜 Licença
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
 ---
 
 Feito com ❤️ por [Maria Clara](https://github.com/MariaClaraRVN)
